@@ -1,0 +1,16 @@
+.slide-container {
+    height:600px;
+    width:100%;
+    background-color:rgba(17, 20, 48, 1);
+    position:relative;
+   
+}
+/* .slide-container::before{
+    height:500px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+} */
+
+

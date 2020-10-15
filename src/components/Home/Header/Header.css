@@ -1,0 +1,28 @@
+.header-container {
+    height:850px;
+    width:100%;
+
+    position:relative;
+    background:white;
+    background-size: cover;
+ 
+}
+.header-container::before{
+    height:630px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+ margin-left: 15px;
+
+    transform: rotate(-1.5deg);
+		transform-origin:left bottom
+}
+
+
+.header-container::before {
+    left: 0;
+    background-color: #FBD062; 
+    
+  
+}
