@@ -17,7 +17,7 @@ const Order = () => {
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = data => {
     data.created = new Date();
-    fetch('http://localhost:5000/userService', {
+    fetch('https://mighty-inlet-60591.herokuapp.com/userService', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(data)

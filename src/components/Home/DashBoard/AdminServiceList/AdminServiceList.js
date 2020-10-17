@@ -6,7 +6,7 @@ const AdminServiceList = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/getUserService')
+        fetch('https://mighty-inlet-60591.herokuapp.com/getUserService')
             .then(res => res.json())
             .then(data => {
                 setGetUserService(data)

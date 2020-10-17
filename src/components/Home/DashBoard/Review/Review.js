@@ -23,7 +23,7 @@ const Review = () => {
     formData.append('companyName', info.companyName)
     formData.append('description', info.description)
 
-    fetch('http://localhost:5000/addReview', {
+    fetch('https://mighty-inlet-60591.herokuapp.com/addReview', {
       method: 'POST',
       body: formData
     })

@@ -13,7 +13,7 @@ const UserFeedbackCard = (props) => {
                     {
                         feedbacks.image ? <img style={{ height: '100px' }} src={`data:image/png;base64,${feedbacks.image.img}`} />
                             :
-                            <img style={{ height: '100px' }} className="img-fluid mb-3" src={`http://localhost:5000/${feedbacks.img}`} alt="" />
+                            <img style={{ height: '100px' }} className="img-fluid mb-3" src={`https://mighty-inlet-60591.herokuapp.com/${feedbacks.img}`} alt="" />
                     }
                     <h4> {feedbacks.name}  </h4>
                 </div>

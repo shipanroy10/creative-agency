@@ -9,7 +9,7 @@ const UserServiceList = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/singleUserServices?email=' + loggedInUser.email)
+        fetch('https://mighty-inlet-60591.herokuapp.com/singleUserServices?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => {
                 setUserService(data)

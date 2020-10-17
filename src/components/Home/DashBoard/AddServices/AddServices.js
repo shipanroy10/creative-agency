@@ -20,7 +20,7 @@ const AddServices = () => {
         formData.append('description', info.description)
         formData.append('email', info.email)
 
-        fetch('http://localhost:5000/addAService', {
+        fetch('https://mighty-inlet-60591.herokuapp.com/addAService', {
             method: 'POST',
             body: formData
         })
