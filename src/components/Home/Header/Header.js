@@ -11,18 +11,20 @@ import AllFooter from '../AllFooter/AllFooter';
 
 
 
+
 const Header = () => {
-    return (
-      <div className="header-container">
-        <Navs></Navs>
-        <HeaderMain></HeaderMain>
-        <Allpng></Allpng>
-        <Services></Services>
-        <MainSlide></MainSlide>
-        <UserFeedback></UserFeedback>
-        <AllFooter></AllFooter>
-      </div>
-    );
+  return (
+    <div className="header-container">
+      <Navs></Navs>
+
+      <HeaderMain></HeaderMain>
+      <Allpng></Allpng>
+      <Services></Services>
+      <MainSlide></MainSlide>
+      <UserFeedback></UserFeedback>
+      <AllFooter></AllFooter>
+    </div>
+  );
 };
 
 export default Header;

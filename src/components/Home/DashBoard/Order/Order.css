@@ -1,0 +1,16 @@
+form input{
+    width: 350px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.description{
+    height: 70px;
+}
+.form-main{
+    width: 600px;
+    height: 700px;
+    background-color: rgba(218, 218, 231, 0.692);
+}
+form{
+    margin-left: 20px;
+}

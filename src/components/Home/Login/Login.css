@@ -1,0 +1,8 @@
+.login-page{
+    border:1px solid black;
+    width: 450px;
+    height: 400px;
+}
+.login-page button{
+    margin-top: 200px;
+}
